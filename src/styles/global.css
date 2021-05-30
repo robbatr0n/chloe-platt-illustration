@@ -1,0 +1,23 @@
+@tailwind base;
+
+@layer base {body{
+  @apply bg-offpurple-0 font-body
+}
+
+h1, h2, h3, h4, h5{
+  @apply font-header
+}}
+
+
+
+@tailwind components;
+
+
+@font-face {
+  font-family: moniqa;
+  src: local(../fonts/m2.otf) format("otf");
+}
+
+
+@tailwind utilities;
+
