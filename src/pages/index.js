@@ -39,17 +39,14 @@ export const indexQuery = graphql`
         extension: { regex: "/(jpg)|(jpeg)|(png)/" }
         dir: { regex: "../images/art/" }
       }
+      sort: { order: ASC, fields: name }
     ) {
       edges {
         node {
           id
           name
           childImageSharp {
-            gatsbyImageData(
-              width: 600
-
-              placeholder: BLURRED
-            )
+            gatsbyImageData(width: 600, placeholder: BLURRED)
           }
         }
       }

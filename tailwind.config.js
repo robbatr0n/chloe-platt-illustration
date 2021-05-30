@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        body: ["Esteban", "serif"],
-        header: ["Oswald", "sans-serif"],
+        body: ["open-sans", "sans-serif"],
+        header: ["Amatic SC", "sans-serif"],
       },
       colors: {
         offpurple: ["#EAE4E4"],
@@ -29,5 +29,5 @@ module.exports = {
       display: ["group-hover"],
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 }

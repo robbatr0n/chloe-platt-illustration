@@ -1,4 +1,6 @@
 import "@fontsource/esteban"
 import "@fontsource/oswald"
 import "@fontsource/alegreya"
+import "@fontsource/amatic-sc"
+import "@fontsource/open-sans"
 import "./src/styles/global.css"

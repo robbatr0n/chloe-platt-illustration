@@ -16,11 +16,11 @@ const Footer = ({ primaryColour }) => {
       >
         <div className="container mx-auto grid items-center grid-cols-1 md:grid-cols-3 gap-8">
           <div className="mx-auto md:col-span-2">
-            <p className="text-2xl md:text-4xl lg:text-6xl underline font-bold">
+            <h1 className="text-2xl md:text-4xl lg:text-6xl underline font-bold">
               Thanks for visiting
-            </p>
+            </h1>
           </div>
-          <div className="mx-auto text-lg: md-text-xl lg:text-2xl md:mx-0 md:col-span-1">
+          <div className="mx-auto text-lg: md-text-xl  md:mx-0 md:col-span-1">
             <ul className="">
               <Link to="/">
                 <li className="my-4">work</li>
