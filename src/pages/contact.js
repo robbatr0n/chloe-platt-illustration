@@ -1,10 +1,13 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import { ImBehance2, ImInstagram, ImTwitter } from "react-icons/im"
+import Seo from "../components/seo"
 
 const ContactPage = () => {
   return (
     <Layout primaryColour="yellow">
+      <Seo title="contact" />
+
       <div className="bg-offyellow-0">
         <div className="container flex  flex-col justify-center  h-screen mx-auto py-2">
           <div className=" mb-32 text-offblack-0">
