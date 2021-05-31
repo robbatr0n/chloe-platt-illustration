@@ -11,8 +11,8 @@ const AboutPage = () => {
       <Seo title="about" />
 
       <div className="bg-offblue-0">
-        <div className="container flex flex-col px-2 md:px-4 lg:px-8 md:h-screen justify-center mx-auto py-16">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12  py-12">
+        <div className="container flex flex-col justify-center px-2 py-16 mx-auto md:px-4 lg:px-8 md:h-screen">
+          <div className="grid grid-cols-1 gap-12 py-12 md:grid-cols-2">
             <div className="flex items-center">
               <StaticImage
                 className=""
@@ -20,12 +20,13 @@ const AboutPage = () => {
                 alt="user image"
               />
             </div>
-            <div className="text-xl flex flex-col   justify-center">
+            <div className="flex flex-col justify-center text-xl">
               <div className="my-6 prose">
                 <p>
                   Hi there my name is Chloe Platt and I am a self-taught,
-                  freelance <span className="underline font-bold">artist</span>
-                  and <span className="underline font-bold">illustrator</span>
+                  freelance{" "}
+                  <span className="font-bold underline">artist&nbsp;</span>
+                  and <span className="font-bold underline">illustrator</span>
                   &nbsp;based in Norwich aiming to create unique pieces for
                   friends, family and customers to treasure forever. I work with
                   a variety of mediums, including pencil, ink, wax and acrylic
